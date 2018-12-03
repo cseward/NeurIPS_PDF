@@ -176,7 +176,7 @@ def generate_xetex(all_infodicts, filename, day, print_posters):
   
   writer.write("\\pagestyle{fancy}\n")
   writer.write("\\fancyhf{}\n")
-  writer.write("\\rhead{\\scriptsize By Calvin Seward \\url{github.com/zalandoresearch/NeurIPS_PDF}}\n")
+  writer.write("\\rhead{\\scriptsize By Calvin Seward \\url{github.com/cseward/NeurIPS_PDF}}\n")
   writer.write("\\cfoot{\\scriptsize\\thepage}\n\n")
   
   writer.write("\\begin{document}\n")
